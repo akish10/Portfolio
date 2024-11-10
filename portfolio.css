@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#about-me {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#about-me img {
+    max-width: 100%;
+    height: auto;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skills-row img {
+    width: 80px;
+    height: auto;
+}
+
+#myprojects {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#myprojects a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#lets-connect {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="portfolio.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <p>My Portfolio</p>
+    </nav>
+
+    <!-- About Me Section -->
+    <div class="container" id="about-me">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Hello, I'm Winnie Odhiambo</h4>
+                <p>
+                    I'm a seasoned web developer who is passionate about technology.<br/>
+                    With a strong passion for technology, my vision is to solve real-world problems using cutting-edge technologies.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="myphoto.jpg" alt="Profile Picture" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="container" id="skills">
+        <h4>Skills and Competencies</h4>
+        <div class="row text-center">
+            <div class="col-md-2 col-sm-4">
+                <img src="html5.png" alt="HTML5 logo" class="img-fluid" width="50">
+                <p>HTML5</p>
+            </div>
+            <div class="col-md-2 col-sm-4">
+                <img src="css3.jpeg" alt="CSS3 logo" class="img-fluid" width="50">
+                <p>CSS3</p>
+            </div>
+            <div class="col-md-2 col-sm-4">
+                <img src="javascript.png" alt="JavaScript logo" class="img-fluid" width="50">
+                <p>JavaScript</p>
+            </div>
+            <div class="col-md-2 col-sm-4">
+                <img src="python.jpeg" alt="Python logo" class="img-fluid" width="50">
+                <p>Python</p>
+            </div>
+            <div class="col-md-2 col-sm-4">
+                <img src="django-logo.png" alt="Django logo " class="img-fluid" width="50">
+                <p>Django</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container" id="myprojects">
+        <h4>My Projects</h4>
+        <div>
+            <h5>Vehicles-book</h5>
+            <p>Vehicles-book is a website that provides transport solutions to farmers.<br/>
+                It allows farmers to book vehicles from a company to transport farm produce from their farms to the market.
+            </p>
+            <p>Check out the repo: <a href="https://github.com/akish10/vehiclesbook" target="_blank">Vehicles Book</a></p>
+        </div>
+    </div>
+
+    <!-- Connect Section -->
+    <div class="container" id="lets-connect">
+        <h4>Let's Connect</h4>
+        <form>
+            <div class="form-group">
+                <label for="InputName">Name</label>
+                <input type="text" class="form-control" id="InputName" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail1">Email</label>
+                <input type="email" class="form-control" id="InputEmail1" placeholder="Enter email">
+                <small>I'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="InputDescription">Message</label>
+                <textarea class="form-control" id="InputDescription" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
